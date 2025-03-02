@@ -41,7 +41,6 @@
               cp ./build/application/Release/mps_solver $out/bin
               mkdir -p $out/include
               cp -r ./printemps/* $out/include
-              export CPLUS_INCLUDE_PATH="$out/include":$CPLUS_INCLUDE_PATH
             '';
 
             meta = {
