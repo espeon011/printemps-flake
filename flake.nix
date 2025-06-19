@@ -17,12 +17,12 @@
           pkgs.stdenv.mkDerivation
           {
             pname = "printemps";
-            version = "2.6.1";
+            version = "2.7.0";
             src = pkgs.fetchFromGitHub {
               owner = "snowberryfield";
               repo = "printemps";
-              rev = "v2.6.1";
-              hash = "sha256-NwF8MzIpGzizVGaagsAxpAffKQFiJyzWRJAvaoMHXzY=";
+              rev = "v2.7.0";
+              hash = "sha256-gcP+eOH/WO4HEq10NaEbDKNFFvBrkPoBySvkvOaOgBM=";
             };
 
             nativeBuildInputs = [
@@ -39,6 +39,7 @@
             installPhase = ''
               mkdir -p $out/bin
               cp ./build/application/Release/mps_solver $out/bin
+              cp ./build/application/Release/opb_solver $out/bin
               mkdir -p $out/include
               cp -r ./printemps/* $out/include
             '';
