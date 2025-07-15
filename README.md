@@ -1,5 +1,7 @@
 # printemps-flake
 
+This is a flake for the [printemps solver](https://github.com/snowberryfield/printemps).
+
 ## Usage
 
 ```nix
