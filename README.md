@@ -1,4 +1,4 @@
-# printemps-flake
+# Nix flake package for printemps
 
 This is a flake for the [printemps solver](https://github.com/snowberryfield/printemps).
 
