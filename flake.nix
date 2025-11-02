@@ -44,7 +44,7 @@
 
           meta = {
             homepage = "https://snowberryfield.github.io/printemps";
-            mainProgram = "mps_solver";
+            mainProgram = "printemps";
             platforms = pkgs.lib.platforms.unix;
             license = pkgs.lib.licenses.mit;
           };
