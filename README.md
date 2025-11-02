@@ -6,7 +6,7 @@ This is a flake for the [printemps solver](https://github.com/snowberryfield/pri
 
 ```nix
 {
-  description = "artemis execution environment";
+  description = "printemps execution environment";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
