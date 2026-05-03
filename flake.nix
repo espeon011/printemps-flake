@@ -21,7 +21,7 @@
             owner = "snowberryfield";
             repo = "printemps";
             rev = finalAttrs.version;
-            hash = "sha256-NM669kYXhQdccMBPF7+mqP2aFHn1vgW88BXhNZr3qM4=";
+            hash = "sha256-/3OOh1U+f6vIpinAsoc+35N2Gff0VlMTfjUwJuWqfQw=";
           };
 
           nativeBuildInputs = [
